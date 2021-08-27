@@ -12,7 +12,7 @@ import java.util.List;
 public class UserController {
     @Autowired
     private Ihr ihr;
-    @RequestMapping("hr")
+    @RequestMapping("hrh")
    @ResponseBody
     public List<Hr> findHr(){
         List<Hr> list=ihr.findHr();
